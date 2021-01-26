@@ -20,7 +20,7 @@ export default function Default({ children, meta: pageMeta }) {
 				<meta content="IE=edge" httpEquiv="X-UA-Compatible" />
 				<meta content="width=device-width, initial-scale=1" name="viewport" />
 				<meta name="robots" content="follow, index" />
-				<link href="/favicon.ico" rel="shortcut icon" />
+				<link rel="shortcut icon" href="/favicon.icon"/>
 				<meta content={meta.description} name="description" />
 				<meta
 					property="og:url"
