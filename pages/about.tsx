@@ -1,7 +1,14 @@
+import {Default} from "@/layouts/index";
+
+
+const meta = {
+	title: 'Princing',
+	description:'princing description'
+}
 export default function About(){
 	return(
-		<div>
+		<Default meta={meta}>
 
-		</div>
+		</Default>
 	)
 }

@@ -7,8 +7,8 @@ export default function Default({ children, meta: pageMeta }) {
 	const router = useRouter();
 	const meta = {
 		title: 'Pixan',
-		description: 'Ghost power',
-		cardImage: '/og.png',
+		description: 'Comments and templates for ghost',
+		cardImage: '/og.jpg',
 		...pageMeta
 	};
 
@@ -20,7 +20,7 @@ export default function Default({ children, meta: pageMeta }) {
 				<meta content="IE=edge" httpEquiv="X-UA-Compatible" />
 				<meta content="width=device-width, initial-scale=1" name="viewport" />
 				<meta name="robots" content="follow, index" />
-				<link rel="shortcut icon" href="/favicon.icon"/>
+				<link rel="shortcut icon" href="/favicon.ico"/>
 				<meta content={meta.description} name="description" />
 				<meta
 					property="og:url"

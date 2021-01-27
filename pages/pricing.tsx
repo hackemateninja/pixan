@@ -1,7 +1,14 @@
-export default function Pricing(){
-	return(
-		<div>
+import {Default} from "@/layouts/index";
 
-		</div>
+const meta = {
+	title: 'Princing',
+	description:'princing description'
+}
+export default function Pricing(){
+
+	return(
+		<Default meta={meta}>
+
+		</Default>
 	)
 }
