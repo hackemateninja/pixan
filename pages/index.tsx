@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {Default} from "@/layouts/index";
+import {Hero} from "@/components/index";
 
 
 const meta = {
@@ -8,10 +9,9 @@ const meta = {
 }
 
 export default function Home() {
-
-
   return (
     <Default meta={meta}>
+      <Hero />
       hello world pixan
     </Default>
   )

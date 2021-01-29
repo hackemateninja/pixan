@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import '@/styles/global.css'
 import {AppProps} from "next/app";
 import {UserContextProvider} from "@/contexts/UserContext";
 

@@ -25,5 +25,9 @@ export default {
 	},
 	PRIVACY_POLICY:{
 
+	},
+	ERROR_META:{
+		title: '404',
+		description: 'Page not found'
 	}
 }

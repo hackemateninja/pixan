@@ -38,7 +38,7 @@ export default function Default({ children, meta: pageMeta }) {
 				<meta name="twitter:image" content={meta.cardImage} />
 			</Head>
 			<Header />
-			<div>{children}</div>
+			{children}
 			<Footer />
 		</>
 	);
