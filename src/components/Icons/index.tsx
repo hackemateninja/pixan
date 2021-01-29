@@ -6,3 +6,4 @@ export {default as YouTube} from './YouTube';
 export {default as Bag} from './Bag';
 export {default as Hamburger} from './Hamburger';
 export {default as Love} from './Love';
+export {default as Search} from './Search';

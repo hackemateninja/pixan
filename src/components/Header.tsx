@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Button from './Button'
 import Menu from './Menu'
 import { MENU } from '@/const/index'
-import {Bag, Love, Hamburger} from "./Icons";
+import {Bag, Love, Hamburger, Search} from "./Icons";
 
 export default function Header() {
 	return (
@@ -28,12 +28,13 @@ export default function Header() {
 						))}
 					</ul>
 					<div className="h-full flex items-center justify-end w-1/3">
+						<Search className="icon-svg" />
 						<Bag className="icon-svg" />
 						<Love className="icon-svg" />
-						<div className="hidden md:flex">
+						<div className="hidden lg:flex">
 							<Button route="/login" title="Sign in" />
 						</div>
-						<div className="main-gradient p-1 flex md:hidden">
+						<div className="main-gradient p-1 flex lg:hidden">
 							<button className="button">
 								<Hamburger className="icon-svg" />
 							</button>
