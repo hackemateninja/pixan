@@ -9,7 +9,7 @@ export default function Footer() {
 	const isDark = useIsDark()
 
 	return (
-		<footer className="dark:bg-backDark-700 bg-backStrong-50 text-sm w-full bottom-0 absolute">
+		<footer className="dark:bg-backDark-700 bg-backStrong-50 text-sm w-full bottom-0">
 			<div className="w-full h-2 main-gradient" />
 			<div className="flex flex-col items-center justify-around w-full md:px-20 px-5 py-8">
 				<Link href="/">
