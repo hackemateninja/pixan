@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-gradient{
+	@apply bg-gradient-to-r from-primary-200 via-primary-300 to-primary-500
+}
+
+.button{
+	@apply bg-back hover:bg-transparent dark:bg-backDark-700 text-xs md:text-sm px-5 py-1 ;
+}
+
+.pointer-scale{
+	@apply cursor-pointer transform hover:scale-110 transition duration-200;
+}
+
+.icon-svg{
+	@apply fill-current text-color-300 w-6 cursor-pointer hover:text-primary-400;
+}
+
+

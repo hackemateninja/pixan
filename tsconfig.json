@@ -2,14 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/const/*": ["const/*"],
-      "@/hooks/*": ["hooks/*"],
-      "@/pages/*": ["pages/*"],
-      "@/styles/*": ["styles/*"],
-      "@/layouts/*": ["layouts/*"],
-      "@/libs/*": ["libs/*"],
-      "@/contexts/*": ["contexts/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/const/*": ["./src/const/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/libs/*": ["./src/libs/*"],
+      "@/contexts/*": ["./src/contexts/*"],
     },
     "target": "es5",
     "lib": [
