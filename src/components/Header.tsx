@@ -7,12 +7,12 @@ import {Bag, Love, Hamburger} from "./Icons";
 
 export default function Header() {
 	return (
-		<header>
+		<header className="">
 			<div className="w-full h-2 main-gradient" />
-			<nav className="w-full md:px-20 px-5 bg-backStrong-50 dark:bg-backDark-700 h-20">
+			<nav className="md:px-20 px-5 bg-backStrong-50 dark:bg-backDark-700 h-20">
 				<div className="w-full h-full flex items-center justify-between">
 					<Link href="/">
-						<a>
+						<a className="w-1/3">
 							<Image
 								src="/header-logo.png"
 								alt="Pixan ghost template"
@@ -27,7 +27,7 @@ export default function Header() {
 							<Menu route={route} key={route.path} />
 						))}
 					</ul>
-					<div className="h-full flex items-center justify-between">
+					<div className="h-full flex items-center justify-end w-1/3">
 						<Bag className="icon-svg" />
 						<Love className="icon-svg" />
 						<div className="hidden md:flex">
