@@ -16,8 +16,8 @@ export default function Hero() {
 				height={200}
 				className="animate-pulse"
 			/>
-			<h1 className="font-medium text-6xl">Ghost Power</h1>
-			<h2 className="text-xl font-mono my-5">Taking ghost engagement to the next level</h2>
+			<h1 className="font-medium text-4xl md:text-6xl">Ghost Power</h1>
+			<h2 className="text-l md:text-xl text-center font-mono my-5">Taking ghost engagement to the next level</h2>
 			<Button route="/pricing" title="Get Starter"/>
 		</div>
 	)

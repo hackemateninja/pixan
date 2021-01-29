@@ -8,11 +8,13 @@ interface Button{
 export default function Button({route, title}:Button){
 	return(
 		<Link href={route}>
-			<div className="main-gradient p-1">
-				<button className="button text-color">
-					{title}
-				</button>
-			</div>
+			<a>
+				<div className="main-gradient p-1 w-full">
+					<button className="button text-color">
+						{title}
+					</button>
+				</div>
+			</a>
 		</Link>
 	);
 }
