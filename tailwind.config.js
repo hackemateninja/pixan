@@ -11,7 +11,7 @@ module.exports = {
       color: colors.coolGray,
       error: colors.red,
       info: colors.blue,
-      primary: colors.emerald,
+      primary: colors.teal,
       success: colors.green,
       transparent: 'transparent',
       warning: colors.yellow,

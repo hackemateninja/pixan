@@ -8,6 +8,7 @@ import { GitHub, Instagram, LinkedIn, Twitter, YouTube } from './Icons'
 export default function Footer() {
 	const isDark = useIsDark()
 
+
 	return (
 		<footer className="dark:bg-backDark-700 bg-backStrong-50 text-sm w-full bottom-0">
 			<div className="w-full h-2 main-gradient" />

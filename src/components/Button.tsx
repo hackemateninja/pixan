@@ -10,7 +10,7 @@ export default function Button({route, title}:Button){
 		<Link href={route}>
 			<a>
 				<div className="main-gradient p-1">
-					<button className="button text-color">
+					<button className="button">
 						{title}
 					</button>
 				</div>
